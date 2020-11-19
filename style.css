@@ -132,15 +132,16 @@ body{
     #img__box{
         display: block;
         position: absolute;
-        width: 14%;
-        left: 8%;
-        top: 42%;
+        left: -8%;
+        top: 37%;
         z-index: 2;
     }
 
     .wrap{
         width: 80%;
         margin: auto 0;
+        max-width: 920px;
+        position: relative;
     }
 
     .container{
@@ -150,7 +151,6 @@ body{
         flex-direction: row;
         align-items: flex-start;
         width: 100%;
-        max-width: 920px;
         overflow: hidden;
         margin: 0 0 0 2%;
         z-index: 1;
